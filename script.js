@@ -26,14 +26,42 @@ document.getElementById('siBtn').addEventListener('click', function() {
     setTimeout(function() {
         document.getElementById('happyIMGContainer').style.display = 'none';
         document.getElementById('happyGifContainer').style.display = 'block';
-    }, 1000);
+    }, 2000);
 
     setTimeout(function() {
         document.getElementById('happyGifContainer').style.display = 'none';
+        document.getElementById('happyIMGContainer2').style.display = 'block';
+    }, 2000);
+
+    setTimeout(function() {
+        document.getElementById('happyIMGContainer2').style.display = 'none';
         document.getElementById('happyGifContainer2').style.display = 'block';
     }, 2000);
 
+    setTimeout(function() {
+        document.getElementById('happyGifContainer2').style.display = 'none';
+        document.getElementById('happyIMGContainer3').style.display = 'block';
+    }, 2000);
+    
+    setTimeout(function() {
+        document.getElementById('happyIMGContainer3').style.display = 'none';
+        document.getElementById('happyGifContainer3').style.display = 'block';
+    }, 3000);
 
+    setTimeout(function() {
+        document.getElementById('happyGifContainer3').style.display = 'none';
+        document.getElementById('happyIMGContainer4').style.display = 'block';
+    }, 3000);
+
+    setTimeout(function() {
+        document.getElementById('happyIMGContainer4').style.display = 'none';
+        document.getElementById('happyGifContainer4').style.display = 'block';
+    }, 3000);
+    
+    setTimeout(function() {
+        document.getElementById('happyGifContainer4').style.display = 'none';
+        document.getElementById('happyIMGContainer5').style.display = 'block';
+    }, 3000);
   
 });
 
