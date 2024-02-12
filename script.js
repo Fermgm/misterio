@@ -26,7 +26,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
     setTimeout(function() {
         document.getElementById('happyIMGContainer').style.display = 'none';
         document.getElementById('happyGifContainer').style.display = 'block';
-    }, 2000);
+    }, 1000);
 
     setTimeout(function() {
         document.getElementById('happyGifContainer').style.display = 'none';
@@ -36,32 +36,32 @@ document.getElementById('siBtn').addEventListener('click', function() {
     setTimeout(function() {
         document.getElementById('happyIMGContainer2').style.display = 'none';
         document.getElementById('happyGifContainer2').style.display = 'block';
-    }, 2000);
+    }, 3000);
 
     setTimeout(function() {
         document.getElementById('happyGifContainer2').style.display = 'none';
         document.getElementById('happyIMGContainer3').style.display = 'block';
-    }, 2000);
+    }, 4000);
     
     setTimeout(function() {
         document.getElementById('happyIMGContainer3').style.display = 'none';
         document.getElementById('happyGifContainer3').style.display = 'block';
-    }, 3000);
+    }, 5000);
 
     setTimeout(function() {
         document.getElementById('happyGifContainer3').style.display = 'none';
         document.getElementById('happyIMGContainer4').style.display = 'block';
-    }, 3000);
+    }, 6000);
 
     setTimeout(function() {
         document.getElementById('happyIMGContainer4').style.display = 'none';
         document.getElementById('happyGifContainer4').style.display = 'block';
-    }, 3000);
+    }, 7000);
     
     setTimeout(function() {
         document.getElementById('happyGifContainer4').style.display = 'none';
         document.getElementById('happyIMGContainer5').style.display = 'block';
-    }, 3000);
+    }, 8000);
   
 });
 
