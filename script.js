@@ -33,14 +33,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
         document.getElementById('happyGifContainer2').style.display = 'block';
     }, 2000);
 
-    setTimeout(function() {
-        document.getElementById('happyGifContainer2').style.display = 'none';
-        document.getElementById('happyGifContainer3').style.display = 'block';
-    }, 3000);
-    setTimeout(function() {
-        document.getElementById('happyGifContainer3').style.display = 'none';
-        document.getElementById('happyGifContainer4').style.display = 'block';
-    }, 4000);
+
   
 });
 
