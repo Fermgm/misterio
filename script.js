@@ -10,7 +10,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
     document.getElementById('sadGifContainer1').style.display = 'none';
     document.getElementById('sadGifContainer2').style.display = 'none';
     document.getElementById('gifContainer').style.display = 'none';
-    document.getElementById('happyGifContainer').style.display = 'block';
+    document.getElementById('happyIMGContainer').style.display = 'block';
 
     // Ocultar los botones "Pregunta Sí" y "No "
     document.getElementById('question').style.display = 'none';
@@ -20,7 +20,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
 
     // Mostrar el mensaje específico
     document.getElementById('messageContainer').style.display = 'block';
-    document.getElementById('messageContainer').innerHTML = '¡Siii! jejeje Te amoo bb';
+    document.getElementById('messageContainer').innerHTML = '¡Siii! jejeje Te amoo BB';
 
     // Mostrar otro gif después de 3 segundos
     setTimeout(function() {
@@ -255,7 +255,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
                 document.getElementById('sadGifContainer1').style.display = 'none';
                 document.getElementById('sadGifContainer2').style.display = 'none';
                 document.getElementById('gifContainer').style.display = 'block';
-                document.getElementById('happyGifContainer').style.display = 'none';
+                document.getElementById('happyIMGContainer').style.display = 'none';
                 // Vuelve al estado 0
                 noButtonState = 0;
                 break;
